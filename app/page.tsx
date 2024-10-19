@@ -1,3 +1,9 @@
+import Sidebar from '@/components/Sidebar/page';
+
 export default function Home() {
-  return <div>Hello Berdiyor</div>;
+  return (
+    <div>
+      <Sidebar />
+    </div>
+  );
 }
